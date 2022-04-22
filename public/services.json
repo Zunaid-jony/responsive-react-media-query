@@ -1,0 +1,66 @@
+[
+
+    {
+        "id":1,
+        "price":2000,
+        "name":"ENGINE DIAGNOSTIC",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/4SZh6Mt/1.jpg"
+    },
+    {
+        "id":2,
+        "price":2000,
+        "name":"WHEEL ALIGNMENT",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/G3hcY4d/2.jpg"
+    },
+    {
+        "id":3,
+        "price":2000,
+        "name":"OIL CHANGING",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/Mnrq4LY/3.jpg"
+    },
+    {
+        "id":4,
+        "price":2000,
+        "name":"BRAKE REPARING",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/px1hk6z/4.jpg"
+    },
+    {
+        "id":5,
+        "price":2000,
+        "name":"LIGHT CHANGE",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/3y3JTSS/5.webp"
+    },
+    {
+        "id":6,
+        "price":2000,
+        "name":"ENGINE DIAGNOSTIC",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/hVrKC2G/6.webp"
+    },
+    {
+        "id":7,
+        "price":2000,
+        "name":"ENGINE DIAGNOSTIC",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/BZ5ChYX/7.webp"
+    },
+    {
+        "id":8,
+        "price":2000,
+        "name":"ENGINE DIAGNOSTIC",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/BZ5ChYX/7.webp"
+    },
+    {
+        "id":9,
+        "price":2000,
+        "name":"ENGINE DIAGNOSTIC",
+        "description":"Lorem You can now view responsive-react-media-query in the browser.You can now view responsive-react-media-query in the browser.",
+        "img":"https://i.ibb.co/BZ5ChYX/7.webp"
+    }
+]
