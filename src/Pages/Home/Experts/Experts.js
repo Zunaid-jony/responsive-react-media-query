@@ -10,9 +10,9 @@ const Experts = () => {
         .then(data => setExpert(data))
     },[])
     return (
-        <div className='container our-experts py-5'>
-            <h2 className='text-primary'>Our Experts</h2>
-            <div className='row'>
+        <div className='container '>
+            <h2 className='text-primary mt-5 '>Our Experts</h2>
+            <div className='row our-experts'>
             {expert.map(expert =><Expert
             key={expert.id}
             expert={expert}
