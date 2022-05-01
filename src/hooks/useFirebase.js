@@ -5,7 +5,7 @@ import initialaizeAuthentication from './../Pages/Login/Fifebase/firebase.init';
 
 initialaizeAuthentication();
 const useFirebase = () => {
-    const [users, setUsers] = useState({});
+    const [user, setUser] = useState({});
     const auth = getAuth();
 
     const signInUsingGoogle = () =>{
@@ -13,7 +13,7 @@ const useFirebase = () => {
          
          signInWithPopup(auth, googleProvider) 
          .then(result =>{
-             setUsers(result.user);
+             setUser(result.user);
 
          })
          
@@ -22,11 +22,11 @@ const useFirebase = () => {
     useEffect(() => {
         const unsubscribed=onAuthStateChanged (auth, user =>{
             if(user){
-                setUsers(user);
+                setUser(user);
 
             }
             else{
-                setUsers({});
+                setUser({});
             }
         });
         return () => unsubscribed;
@@ -38,7 +38,7 @@ const useFirebase = () => {
     }
 
     return {
-        users,
+        user,
         
         signInUsingGoogle,
         logOut
