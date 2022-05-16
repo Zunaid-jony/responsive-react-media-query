@@ -11,7 +11,7 @@ const PrivetRoute = ({children, ...rest}) => {
     }
      return user.email ? children: <Navigate to='/login'></Navigate>
      //(
-        
+         
     //     <Route
     //     {...rest}
     //     render = {({location}) => user.email ?  children : <Navigate
