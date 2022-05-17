@@ -6,9 +6,13 @@ import './Services.css'
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() =>{
-        fetch('services.json')
+        fetch('http://localhost:5000/services')
         .then(response => response.json())
-        .then(data => setServices(data))
+        .then(data => {
+            console.log(data)
+            setServices(data)
+        
+        })
     },[])
     return (
         <div id='services'>
